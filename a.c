@@ -1,14 +1,16 @@
 /*
-It doesn't matter whether you use vim, emacs, or echo.
-Real programmers use sha384 to compile their source.
+It doesn't matter you use vim, emacs, or echo.
+Real programmers use sha384 to compile their source code.
 To compile this file, either
 $ sha384sum a.c|xxd -r -p>a.out&&chmod a+x a.out
 or
-$ gcc a.c 
- to compile this file and then try
+$ gcc a.c
+Then try 
 $ ./a.out
-*/
-int main(int argc,char **argv)
+ to execute the binary.
+*/ 
+int main(int argc, char **argv)
 {
 return 0;
-} 
+}
+ 
