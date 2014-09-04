@@ -113,6 +113,10 @@ typedef struct {
 } sha512_hash;
 
 typedef struct {
+    uint64_t                    v[6];           //512 bits
+} sha384_hash;
+
+typedef struct {
     uint64_t                    H[8];           //512 bits
     uint32_t                    total;
     uint32_t                    buflen;
