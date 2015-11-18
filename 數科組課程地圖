@@ -1,0 +1,193 @@
+// 課程地圖
+digraph {
+	graph [rankdir=TB]
+	node [fontname="Noto Sans CJK TC"]
+		"高等線性代數" [label=<
+    高等線性代數 <BR /> <FONT POINT-SIZE='12' color='red'>π</FONT> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='grey'>💙</FONT> <FONT POINT-SIZE='12' color='blue'>📊</FONT>> fillcolor="#ffeeff" shape=box style="filled, rounded"]
+		"數理統計學(一)" [label=<
+    數理統計學(一) <BR /> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='black'>💕</FONT> <FONT POINT-SIZE='12' color='blue'>📊</FONT>> fillcolor="#ddddee" shape=box style=filled]
+		"代數(一)" [label=<
+    代數(一) <BR /> <FONT POINT-SIZE='12' color='grey'>💙</FONT>> fillcolor="#ddddee" shape=box style=filled]
+		"向量分析" [label=<
+    向量分析 <BR /> <FONT POINT-SIZE='12' color='red'>π</FONT> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='grey'>💙</FONT>> fillcolor="#ffeeff" shape=box style="filled, rounded"]
+		"統計學" [label=<
+    統計學 <BR /> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='black'>💕</FONT> <FONT POINT-SIZE='12' color='green'>💻</FONT>> fillcolor="#ffeeff" shape=box style="filled, rounded"]
+		"實驗設計" [label=<
+    實驗設計 <BR /> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='blue'>📊</FONT>> fillcolor="#ddddee" shape=box style="filled, rounded"]
+		"線性代數(二)" [label=<
+    線性代數(二) <BR /> <FONT POINT-SIZE='12' color='#aaaaaa'>🏗</FONT>> fillcolor="#ffeeff" shape=box style=filled]
+		"迴歸分析" [label=<
+    迴歸分析 <BR /> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='blue'>📊</FONT>> fillcolor="#ddddee" shape=box style=filled]
+		"程式設計(二)" [label=<
+    程式設計(二) <BR /> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='green'>💻</FONT>> fillcolor="#ffeeff" shape=box style="filled, rounded"]
+		"其它選修(二)" [label=<
+    其它選修(二) <BR /> <FONT POINT-SIZE='12' color='black'>💕</FONT>> fillcolor="#ccddff" shape=box style="filled, rounded"]
+		"高等微積分(一)" [label=<
+    高等微積分(一) <BR /> <FONT POINT-SIZE='12' color='grey'>💙</FONT>> fillcolor="#ffeeff" shape=box style=filled]
+		"幾何" [label=<
+    幾何 <BR /> <FONT POINT-SIZE='12' color='red'>π</FONT> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='black'>💕</FONT>> fillcolor="#ddddee" shape=box style="filled, rounded"]
+		"複變函數論" [label=<
+    複變函數論 <BR /> <FONT POINT-SIZE='12' color='red'>π</FONT> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='black'>💕</FONT>> fillcolor="#ddddee" shape=box style=filled]
+		"隨機模型" [label=<
+    隨機模型 <BR /> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='black'>💕</FONT> <FONT POINT-SIZE='12' color='blue'>📊</FONT>> fillcolor="#ddddee" shape=box style="filled, rounded"]
+		"線性代數(一)" [label=<
+    線性代數(一) <BR /> <FONT POINT-SIZE='12' color='#aaaaaa'>🏗</FONT>> fillcolor="#ffeeee" shape=box style=filled]
+		"數學導論" [label=<
+    數學導論 <BR /> <FONT POINT-SIZE='12' color='#aaaaaa'>🏗</FONT>> fillcolor="#ffeeee" shape=box style=filled]
+		"軟體實作與計算實驗" [label=<
+    軟體實作與計算實驗 <BR /> <FONT POINT-SIZE='12' color='#aaaaaa'>🏗</FONT>> fillcolor="#ffeeee" shape=box style="filled, rounded"]
+		"微積分(一)" [label=<
+    微積分(一) <BR /> <FONT POINT-SIZE='12' color='#aaaaaa'>🏗</FONT>> fillcolor="#ffeeee" shape=box style=filled]
+		"基礎機率" [label=<
+    基礎機率 <BR /> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='black'>💕</FONT> <FONT POINT-SIZE='12' color='green'>💻</FONT>> fillcolor="#ffeeff" shape=box style="filled, rounded"]
+		"機率論" [label=<
+    機率論 <BR /> <FONT POINT-SIZE='12' color='red'>π</FONT> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='black'>💕</FONT> <FONT POINT-SIZE='12' color='blue'>📊</FONT>> fillcolor="#ddddee" shape=box style="filled, rounded"]
+		"數理統計學(二)" [label=<
+    數理統計學(二) <BR /> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='blue'>📊</FONT>> fillcolor="#ddddee" shape=box style="filled, rounded"]
+		"應數專論" [label=<
+    應數專論 <BR /> <FONT POINT-SIZE='12' color='red'>π</FONT> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='black'>💕</FONT>> fillcolor="#ccddff" shape=box style="filled, rounded"]
+		"偏微分方程" [label=<
+    偏微分方程 <BR /> <FONT POINT-SIZE='12' color='red'>π</FONT> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='black'>💕</FONT>> fillcolor="#ccddff" shape=box style="filled, rounded"]
+		"作業系統" [label=<
+    作業系統 <BR /> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='green'>💻</FONT>> fillcolor="#ddddee" shape=box style="filled, rounded"]
+		"實變函數論" [label=<
+    實變函數論 <BR /> <FONT POINT-SIZE='12' color='red'>π</FONT> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='black'>💕</FONT>> fillcolor="#ddddee" shape=box style=filled]
+		"微陣列基因資料分析" [label=<
+    微陣列基因資料分析 <BR /> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='green'>💻</FONT>> fillcolor="#ccddff" shape=box style="filled, rounded"]
+		"高等微積分(二)" [label=<
+    高等微積分(二) <BR /> <FONT POINT-SIZE='12' color='grey'>💙</FONT>> fillcolor="#ffeeff" shape=box style=filled]
+		"分析導論" [label=<
+    分析導論 <BR /> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='grey'>💙</FONT>> fillcolor="#ffeeee" shape=box style="filled, rounded"]
+		"拓樸學" [label=<
+    拓樸學 <BR /> <FONT POINT-SIZE='12' color='red'>π</FONT> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='black'>💕</FONT>> fillcolor="#ddddee" shape=box style="filled, rounded"]
+		"數論" [label=<
+    數論 <BR /> <FONT POINT-SIZE='12' color='red'>π</FONT> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='grey'>💙</FONT>> fillcolor="#ddddee" shape=box style="filled, rounded"]
+		"數學規劃" [label=<
+    數學規劃 <BR /> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='black'>💕</FONT> <FONT POINT-SIZE='12' color='blue'>📊</FONT>> fillcolor="#ddddee" shape=box style="filled, rounded"]
+		"其它選修(一)" [label=<
+    其它選修(一) <BR /> <FONT POINT-SIZE='12' color='black'>💕</FONT>> fillcolor="#ccddff" shape=box style="filled, rounded"]
+		"資料結構" [label=<
+    資料結構 <BR /> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='green'>💻</FONT>> fillcolor="#ffeeff" shape=box style="filled, rounded"]
+		"離散數學" [label=<
+    離散數學 <BR /> <FONT POINT-SIZE='12' color='red'>π</FONT> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='black'>💕</FONT> <FONT POINT-SIZE='12' color='green'>💻</FONT>> fillcolor="#ffeeff" shape=box style="filled, rounded"]
+		"對局論" [label=<
+    對局論 <BR /> <FONT POINT-SIZE='12' color='red'>π</FONT> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='black'>💕</FONT>> fillcolor="#ccddff" shape=box style="filled, rounded"]
+		"精算學" [label=<
+    精算學 <BR /> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='blue'>📊</FONT>> fillcolor="#ffeeff" shape=box style="filled, rounded"]
+		"計算機概論" [label=<
+    計算機概論 <BR /> <FONT POINT-SIZE='12' color='#aaaaaa'>🏗</FONT>> fillcolor="#ffeeee" shape=box style="filled, rounded"]
+		"微積分(二)" [label=<
+    微積分(二) <BR /> <FONT POINT-SIZE='12' color='#aaaaaa'>🏗</FONT>> fillcolor="#ffeeee" shape=box style=filled]
+		"統計軟體與實務應用" [label=<
+    統計軟體與實務應用 <BR /> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='blue'>📊</FONT>> fillcolor="#ffeeff" shape=box style="filled, rounded"]
+		"程式設計(一)" [label=<
+    程式設計(一) <BR /> <FONT POINT-SIZE='12' color='#aaaaaa'>🏗</FONT> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='blue'>📊</FONT>> fillcolor="#ffeeee" shape=box style="filled, rounded"]
+		"代數(二)" [label=<
+    代數(二) <BR /> <FONT POINT-SIZE='12' color='red'>π</FONT> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='black'>💕</FONT>> fillcolor="#ddddee" shape=box style=filled]
+		"傅氏分析" [label=<
+    傅氏分析 <BR /> <FONT POINT-SIZE='12' color='red'>π</FONT> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='black'>💕</FONT>> fillcolor="#ddddee" shape=box style="filled, rounded"]
+		"數值方法" [label=<
+    數值方法 <BR /> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='grey'>💙</FONT> <FONT POINT-SIZE='12' color='blue'>📊</FONT>> fillcolor="#ddddee" shape=box style=filled]
+		"動態系統" [label=<
+    動態系統 <BR /> <FONT POINT-SIZE='12' color='red'>π</FONT> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='black'>💕</FONT>> fillcolor="#ccddff" shape=box style="filled, rounded"]
+		"演算法" [label=<
+    演算法 <BR /> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='green'>💻</FONT>> fillcolor="#ccddff" shape=box style="filled, rounded"]
+		"集合論" [label=<
+    集合論 <BR /> <FONT POINT-SIZE='12' color='red'>π</FONT> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='black'>💕</FONT>> fillcolor="#ccddff" shape=box style="filled, rounded"]
+		"微分方程" [label=<
+    微分方程 <BR /> <FONT POINT-SIZE='12' color='red'>π</FONT> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='grey'>💙</FONT> <FONT POINT-SIZE='12' color='green'>💻</FONT>> fillcolor="#ddddee" shape=box style=filled]
+		"時間序列" [label=<
+    時間序列 <BR /> <FONT POINT-SIZE='12' color='#7f5500'>🔬</FONT> <FONT POINT-SIZE='12' color='blue'>📊</FONT> <FONT POINT-SIZE='12' color='green'>💻</FONT>> fillcolor="#ddddee" shape=box style="filled, rounded"]
+		"其它選修(三)" [label=<
+    其它選修(三) <BR /> <FONT POINT-SIZE='12' color='black'>💕</FONT>> fillcolor="#ccddff" shape=box style="filled, rounded"]
+		"一上" [label="一上" style=invis]
+		"一下" [label="一下" style=invis]
+		"二上" [label="二上" style=invis]
+		"二下" [label="二下" style=invis]
+		"三上" [label="三上" style=invis]
+		"三下" [label="三下" style=invis]
+		"四上" [label="四上" style=invis]
+		"四下" [label="四下" style=invis]
+			"一上" -> "一下" [style=invis]
+			"一下" -> "二上" [style=invis]
+			"二上" -> "二下" [style=invis]
+			"二下" -> "三上" [style=invis]
+			"三上" -> "三下" [style=invis]
+			"三下" -> "四上" [style=invis]
+			"四上" -> "四下" [style=invis]
+			"二下" -> "高等線性代數" [style=invis]
+			"線性代數(二)" -> "高等線性代數" [color="#007f00"]
+			"三上" -> "數理統計學(一)" [style=invis]
+			"統計學" -> "數理統計學(一)" [color="#007f00"]
+			"三上" -> "代數(一)" [style=invis]
+			"二上" -> "向量分析" [style=invis]
+			"微積分(二)" -> "向量分析" [color="#007f00"]
+			"二下" -> "統計學" [style=invis]
+			"基礎機率" -> "統計學" [color="#007f00"]
+			"三下" -> "實驗設計" [style=invis]
+			"統計學" -> "實驗設計" [color="#007f00"]
+			"二上" -> "線性代數(二)" [style=invis]
+			"線性代數(一)" -> "線性代數(二)" [color="#007f00"]
+			"三上" -> "迴歸分析" [style=invis]
+			"數理統計學(一)" -> "迴歸分析" [color="#007f00"]
+			"二下" -> "程式設計(二)" [style=invis]
+			"四下" -> "其它選修(二)" [style=invis]
+			"二上" -> "高等微積分(一)" [style=invis]
+			"微積分(二)" -> "高等微積分(一)" [color=blue]
+			"三上" -> "幾何" [style=invis]
+			"微積分(二)" -> "幾何" [color="#007f00"]
+			"線性代數(二)" -> "幾何" [color="#007f00"]
+			"三上" -> "複變函數論" [style=invis]
+			"高等微積分(二)" -> "複變函數論" [color="#007f00"]
+			"三下" -> "隨機模型" [style=invis]
+			"基礎機率" -> "隨機模型" [color="#007f00"]
+			"一下" -> "線性代數(一)" [style=invis]
+			"一上" -> "數學導論" [style=invis]
+			"一下" -> "軟體實作與計算實驗" [style=invis]
+			"一上" -> "微積分(一)" [style=invis]
+			"二上" -> "基礎機率" [style=invis]
+			"微積分(二)" -> "基礎機率" [color="#007f00"]
+			"三上" -> "機率論" [style=invis]
+			"基礎機率" -> "機率論" [color="#007f00"]
+			"三下" -> "數理統計學(二)" [style=invis]
+			"數理統計學(一)" -> "數理統計學(二)" [color="#007f00"]
+			"四下" -> "應數專論" [style=invis]
+			"四上" -> "偏微分方程" [style=invis]
+			"三上" -> "作業系統" [style=invis]
+			"三下" -> "實變函數論" [style=invis]
+			"高等微積分(二)" -> "實變函數論" [color="#007f00"]
+			"四上" -> "微陣列基因資料分析" [style=invis]
+			"二下" -> "高等微積分(二)" [style=invis]
+			"高等微積分(一)" -> "高等微積分(二)" [color="#007f00"]
+			"一下" -> "分析導論" [style=invis]
+			"數學導論" -> "分析導論" [color="#007f00"]
+			"三上" -> "拓樸學" [style=invis]
+			"三下" -> "數論" [style=invis]
+			"三上" -> "數學規劃" [style=invis]
+			"線性代數(二)" -> "數學規劃" [color="#007f00"]
+			"四上" -> "其它選修(一)" [style=invis]
+			"二上" -> "資料結構" [style=invis]
+			"二下" -> "離散數學" [style=invis]
+			"四上" -> "對局論" [style=invis]
+			"二下" -> "精算學" [style=invis]
+			"基礎機率" -> "精算學" [color="#007f00"]
+			"一上" -> "計算機概論" [style=invis]
+			"一下" -> "微積分(二)" [style=invis]
+			"微積分(一)" -> "微積分(二)" [color="#007f00"]
+			"二下" -> "統計軟體與實務應用" [style=invis]
+			"一下" -> "程式設計(一)" [style=invis]
+			"三下" -> "代數(二)" [style=invis]
+			"代數(一)" -> "代數(二)" [color="#007f00"]
+			"三下" -> "傅氏分析" [style=invis]
+			"三下" -> "數值方法" [style=invis]
+			"線性代數(一)" -> "數值方法" [color="#007f00"]
+			"計算機概論" -> "數值方法" [color="#007f00"]
+			"四下" -> "動態系統" [style=invis]
+			"四下" -> "演算法" [style=invis]
+			"四上" -> "集合論" [style=invis]
+			"三下" -> "微分方程" [style=invis]
+			"微積分(二)" -> "微分方程" [color="#007f00"]
+			"三下" -> "時間序列" [style=invis]
+			"統計學" -> "時間序列" [color="#007f00"]
+			"四下" -> "其它選修(三)" [style=invis]
+}
